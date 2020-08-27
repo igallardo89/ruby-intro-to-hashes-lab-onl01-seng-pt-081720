@@ -34,11 +34,14 @@ def monopoly_with_third_tier
        :four_pieces_owned=> 200
      }
      :names=> {
-       :reading_railroad=> {
-     }
-   }
+        :reading_railroad=> {},
+        :pennsylvania_railroad=> {},
+        :b_and_o_railroad=> {},
+        :shortline=> {}
+      }
+    }
   }
-end
+end 
 
 def monopoly_with_fourth_tier
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
